@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Accessibility from './Accessibility';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { Layout } from './compents/Layout';
 
@@ -14,6 +15,7 @@ function App() {
         <Route element={<Layout />}>
           <Route path="/" element={<FrontPage />} />
           <Route path="/page1" element={<ReadingsPage />} />
+          <Route path="/accessibility" element={<Accessibility />} /> {/**/}
         </Route>
       </Routes>
     </Router>
