@@ -15,7 +15,6 @@ function App() {
         <Route element={<Layout />}>
           <Route path="/" element={<FrontPage />} />
           <Route path="/page1" element={<ReadingsPage />} />
-          <Route path="/accessibility" element={<Accessibility />} /> {/**/}
         </Route>
       </Routes>
     </Router>
