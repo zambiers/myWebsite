@@ -1,7 +1,9 @@
 import React from 'react';
 
+
 function Accessibility() {
   return (
+    <div className="list">
     <div style={{ padding: "1rem" }}>
       <h2>Keyboard Accessibility</h2>
       <p>
@@ -14,6 +16,7 @@ function Accessibility() {
         <li>The “Things to Read” section can be tabbed through for quick access.</li>
       </ul>
     </div>
+  </div>
   );
 }
 
