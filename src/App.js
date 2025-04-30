@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Accessibility from './Accessibility';
+import Accessibility from './compents/Accessibility';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { Layout } from './compents/Layout';
 
