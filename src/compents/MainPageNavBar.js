@@ -7,6 +7,7 @@ function MainNavbar(){
    <div className="navbar">
       <Link to="/" className="nav-button">Home</Link>
       <Link to="/page1" className="nav-button">Things to Read About Me</Link>
+      <Link to="/accessibility"className="nav-button">Accessibility Info</Link>
    </div>
    );
 }
