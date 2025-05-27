@@ -7,15 +7,17 @@ import { Layout } from './compents/Layout';
 // My files
 import FrontPage from './page1';
 import ReadingsPage from './page2';
+import PlantPage from './page3';
 
 function App() {
   return (
     <Router>
       <Routes>
         <Route element={<Layout />}>
-          <Route path="/" element={<FrontPage />} />
+          <Route path="/home" element={<FrontPage />} />
           <Route path="/page1" element={<ReadingsPage />} />
-          <Route path="/accessibility" element={<Accessibility />} />
+          <Route path="/page2" element={<Accessibility />} />
+          <Route path="/page3" element={<PlantPage />} />
         </Route>
       </Routes>
     </Router>
